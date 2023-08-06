@@ -22,6 +22,7 @@
     ],
     "rules": {
         "react-hooks/rules-of-hooks": "error",
+        "quotes": [2, "double"],
         "react-hooks/exhaustive-deps": "warn",
         "react/jsx-filename-extension": [
             1,

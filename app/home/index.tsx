@@ -1,9 +1,13 @@
-import { View, Text } from "react-native";
+import { CustomText } from "../style";
+import { PageContainer, TitleHead, StyledHeader } from "./style";
 
 const Home: React.FC = () => (
-  <View>
-    <Text> This is the Homepage </Text>
-  </View>
+  <PageContainer>
+    <StyledHeader>
+      <CustomText style={{ color: "red" }}> Olá, username! </CustomText>
+      <TitleHead> Suas próximas partidas </TitleHead>
+    </StyledHeader>
+  </PageContainer>
 );
 
 export default Home;

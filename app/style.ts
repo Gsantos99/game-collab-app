@@ -1,5 +1,5 @@
-import { citi } from '@assets';
-import styled from 'styled-components/native';
+import { citi } from "@assets";
+import styled from "styled-components/native";
 
 export const CitiLogo = styled(citi)``;
 
@@ -14,6 +14,9 @@ export const Container = styled.View`
 
 export const CustomText = styled.Text`
   font-family: ${({ theme }) => theme.fonts.regular};
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: 400;
   color: ${({ theme }) => theme.colors.black};
 `;
+
+// TODO Adicionar props para o CustomText

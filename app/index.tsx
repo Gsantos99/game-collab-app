@@ -1,13 +1,5 @@
-import { CitiLogo, Container, CustomText } from "./style";
+import Homepage from "./home";
 
-const App: React.FC = () => (
-  <Container>
-    <CitiLogo />
-    <CustomText>
-      Made with &lt; &#x0002F; &gt; and 🩵 by Giulyano Santos
-    </CustomText>
-    <CustomText>Hello Word! My name is Giulyano Santos 111i</CustomText>
-  </Container>
-);
+const App: React.FC = () => <Homepage />;
 
 export default App;

@@ -1,10 +1,13 @@
 import { CustomText } from "../style";
-import { PageContainer, TitleHead, StyledHeader } from "./style";
+import {
+  PageContainer, TitleHead, StyledHeader, ImgContainer,
+} from "./style";
 
 const Home: React.FC = () => (
   <PageContainer>
+    <ImgContainer>Citi logo</ImgContainer>
     <StyledHeader>
-      <CustomText style={{ color: "red" }}> Olá, username! </CustomText>
+      <CustomText> Olá, username! </CustomText>
       <TitleHead> Suas próximas partidas </TitleHead>
     </StyledHeader>
   </PageContainer>

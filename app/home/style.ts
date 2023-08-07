@@ -1,9 +1,11 @@
 import styled from "styled-components/native";
-import { Container, CustomText } from "../style";
+import { CustomText } from "../style";
 
-export const PageContainer = styled(Container)`
+export const PageContainer = styled.ScrollView`
   width: 100%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
   background-color: ${({ theme }) => theme.colors.background};
 `;
 
@@ -22,5 +24,12 @@ export const StyledHeader = styled.View`
   text-align: left;
   padding: 20px;
   gap: 20px;
+  margin-top: 78px;
   background-color: lightcoral;
+`;
+
+export const ImgContainer = styled.View`
+  width: 360px;
+  height: 58px;
+  flex-shrink: 0;
 `;
